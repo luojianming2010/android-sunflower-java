@@ -20,6 +20,7 @@ public class GardenActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        for(int i=0;i<10;i++);//新增for
 
         ActivityGardenBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_garden);
         mDrawerLayout = binding.drawerLayout;
